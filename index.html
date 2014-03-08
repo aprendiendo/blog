@@ -15,9 +15,7 @@
 			<img src="images/logo.png" alt="Logo de la empresa" />
 		</figure>
 		<h1>Puls2014 Comunidad de personas atrativas y Millonarias</h1>
-		<figure id="avatar">
-			<img src="images/avatar.jpg" alt="Avatar" />
-		</figure>
+		<figure id="avatar"></figure>
 	</header>
 	<nav>
 		<ul>
@@ -37,6 +35,8 @@
 		<input type="submit" value="Agregar">
 	</form>
 	<aside>
+		<div id="clima"></div>
+		<div id="geo"></div>
 		<video width="320" heigth="240" controls>
 			<source src="video/lecturas.m4v" type="video/mp4">
 			<source src="video/lecturas.ogg" type="video/ogg">
@@ -189,13 +189,17 @@
 			</div>
 		</article>
 	</section>
-	<footer><p>
+	<footer>
+		<p>
 			<strong>Diseñado por Robinson Ortiz Hernández</strong>
-			</p>
-			<p>Rohbin 2014</p>
+		</p>
+		<p>Rohbin 2014</p>
+		<div class="logosimbolos"></div>
 	</footer>
 	<script src="js/jQuery.js"></script>
 	<script src="js/formulario.js"></script>
+	<script src="js/geo.js"></script>
+	<script src="js/ajax.js"></script>
 	<script>
 		$(function() {
 			
